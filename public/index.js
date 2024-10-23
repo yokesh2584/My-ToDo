@@ -9,7 +9,7 @@ const API_URL = 'https://my-todo-list-project-app.vercel.app/todos';
 
 // Fetch todos function
 function fetchTodos() {
-  fetch(apiUrl)
+  fetch(API_URL)
     .then(response => response.json())
     .then((todos) => {
       console.log(todos);
@@ -34,7 +34,7 @@ todoForm.addEventListener('submit', (event) => {
     completed: false,
   };
 
-  fetch(apiUrl, {
+  fetch(API_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newTodo),
