@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "This is a todo-list-app from scratch!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "To-Do",
+    "List",
+    "Application!"
+  ],
+  "author": "Yokesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
