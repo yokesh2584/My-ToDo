@@ -24,6 +24,6 @@ const todoController = {
             res.status(500).json({message: 'Error creating todo'});
         }
     }
-}
+} 
 
 module.exports = todoController;

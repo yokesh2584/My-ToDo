@@ -5,7 +5,7 @@ const todoInput = document.getElementById("todo-input");
 const todoSubmit = document.getElementById("todo-submit");
 
 // API URL
-const API_URL = 'https://my-todo-list-project-app.vercel.app/todos';
+const API_URL = '/todos';
 
 // Fetch todos function
 function fetchTodos() {
